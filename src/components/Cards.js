@@ -228,13 +228,11 @@ const CardsBox = styled.div`
       width: 100%;
       height: 100%;
     }
-    .card {
-      &:hover {
-        transition: 1s;
-        background-color: hsl(167deg, 20%, 36%);
-        /* transform: translateY(-2rem); */
-        cursor: pointer;
-      }
+    .card:hover {
+      transition: 1s;
+      background-color: hsl(167deg, 20%, 36%);
+      transform: translateY(0rem);
+      cursor: pointer;
     }
     .nav {
       &.left {
@@ -244,7 +242,6 @@ const CardsBox = styled.div`
       
       &.right {
         top: 7%;
-        /* right: 0; */
         transform: translateX(10%) translatey(-20%);
       }
     }
