@@ -7,7 +7,6 @@ import { useParams } from "react-router-dom";
 
 function ProjectDetail() {
 	const { name } = useParams()
-	console.log(name);
 	const portfolioInfo = data.portfolioList.filter((info, idx) => {
 		if (info.name === name) return info;
 	});

@@ -101,7 +101,10 @@ export default Cards;
 const CardsBox = styled.div`
   display: flex;
   justify-content: center;
+  /* width: 30%; */
   
+
+	
 
   .carousel {
     position: relative;
@@ -128,7 +131,6 @@ const CardsBox = styled.div`
     width: 100%;
     height: 100%;
     padding: 2rem;
-    /* background-color: hsl(0deg, 0%, calc(100% - var(--abs-offset) * 10%)); */
     background-color: hsl(167deg, calc(0% + var(--abs-offset) * 100%) , calc(36% + var(--abs-offset) * 50%));
     /* background-color: black; */
     border-radius: 1rem;
@@ -199,6 +201,54 @@ const CardsBox = styled.div`
       transform: translateX(100%) translatey(-50%);
     }
   }
+
+
+  @media ${(props) => props.theme.laptop} {
+		/* width: 50%;
+		margin: auto; */
+		.carousel {
+      width: 24rem;
+      height: 30rem;
+		}
+    .card-container {
+      width: 24rem;
+    height: 30rem;
+    }
+	}
+	@media ${(props) => props.theme.mobile} {
+    /* width: 50%; */
+    margin-top: 30px;
+    overflow-x: hidden;
+    height: 40rem;
+		.carousel {
+      width: 19rem;
+      height: 35rem;
+		}
+    .card-container {
+      width: 100%;
+      height: 100%;
+    }
+    .card {
+      &:hover {
+        transition: 1s;
+        background-color: hsl(167deg, 20%, 36%);
+        /* transform: translateY(-2rem); */
+        cursor: pointer;
+      }
+    }
+    .nav {
+      &.left {
+        top: 7%;
+        transform: translateX(-10%) translatey(-20%);
+      }
+      
+      &.right {
+        top: 7%;
+        /* right: 0; */
+        transform: translateX(10%) translatey(-20%);
+      }
+    }
+	}
 
 
 `;
