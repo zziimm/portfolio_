@@ -7,7 +7,7 @@ function DetailWrap(props) {
 
 	const imgList = props.project.image.map((img, idx) => (
 		<li key={idx}>
-			<Heading level="3">{img.tit !== "" && "🔷 " + img.tit + " 🔷"}</Heading>
+			<Heading level="3">{img.tit !== "" && "🟢 " + img.tit + " 🟢"}</Heading>
 			<p>{img.desc !== "" && "▶ " + img.desc} </p>
 			<img src={`../../images/project/${img.name}`} alt="" />
 		</li>

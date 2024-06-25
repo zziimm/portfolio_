@@ -4,19 +4,6 @@ import styled from "styled-components";
 import Heading from "../atoms/Heading";
 
 function ExperienceWrap() {
-	// const experienceList = data.experienceList.map((list, idx) => (
-	// 	<li key={idx}>
-	// 		<div className="icon">
-	// 			<i className="fas fa-building"></i>
-	// 		</div>
-	// 		<span className="time">{list.period}</span>
-	// 		<Heading level="4">
-	// 			{list.company}
-	// 			<span className="place">{list.position}</span>
-	// 		</Heading>
-	// 		<p>{list.explain}</p>
-	// 	</li>
-	// ));
 
 	const educationList = data.educationList.map((list, idx) => (
 		<li key={idx}>
@@ -33,9 +20,6 @@ function ExperienceWrap() {
 	));
 	return (
 		<StyledExpWrap>
-			{/* <div className="experience">
-				<ul>{experienceList}</ul>
-			</div> */}
 			<div className="education">
 				<ul>{educationList}</ul>
 			</div>
@@ -46,7 +30,6 @@ function ExperienceWrap() {
 const StyledExpWrap = styled.div`
 	display: flex;
 	justify-content: center;
-	/* justify-content: space-between; */
 	> div {
 		width: 50%;
 		> ul {

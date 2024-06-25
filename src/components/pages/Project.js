@@ -2,7 +2,6 @@ import React from 'react';
 import PageWrap from "../../templates/PageWrap";
 import PageHeader from "../molecules/PageHeader";
 import PortfolioMain from "../organisms/PortfolioMain";
-import PortfolioMini from '../organisms/PortfolioMini';
 
 function Project() {
   return (
@@ -13,7 +12,7 @@ function Project() {
         </PageHeader>
         <section>
           <PortfolioMain />
-          {/* <PortfolioMini /> */}
+
         </section>
       </main>
     </PageWrap>

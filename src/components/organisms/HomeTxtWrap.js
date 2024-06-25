@@ -18,15 +18,14 @@ function AboutTxtWrap() {
 						<span className="message">
 							<strong>JIMIN CHUN</strong>
 							<strong>WEB DEVELOPER</strong>
-							<strong>FRONT-END DEVELOPER</strong>
-							<strong>BACK-END DEVELOPER</strong>
+							<strong>FULL DEVELOPER</strong>
 						</span>
 					</Heading>
 					{/* <p>I’m a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p> */}
 					<p>
-						안녕하세요, 저는 천지민입니다. 😀
+						안녕하세요, 저는 천지민입니다. 😊
 						<br />
-						새로운 기술에 관심이 많으며 동료들과의 커뮤니케이션과 상호 피드백 및 리뷰를 좋아합니다. 현재 프론트엔드 개발자로 구직중입니다. 맡은 일에 자부심을 갖고 도전을 경험할 수 있는 회사에서 일하고 싶습니다.
+						지속적인 성장에 관심이 많고 동료들과의 커뮤니케이션, 상호 피드백과 리뷰를 통해 정교함을 추구합니다. 긍적적인 사고로 맡은 일에 책임과 자부심을 갖고 임하며 만족도 높은 결과물을 만들어 내기 위해 노력하며 도전하는 개발자입니다.
 					</p>
 				</div>
 				<section>

@@ -53,7 +53,7 @@ const StyledPreloader = styled.div`
 		right: 0;
 		left: 0;
 		margin: auto;
-		background-color: #ffc41f;
+		background-color: #00b890;
 	}
 
 	&.off {

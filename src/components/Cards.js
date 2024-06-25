@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import * as S from "../css/Bubbles.js";
-
 import data from "../assets/data/portfoilodata.js";
 import {TiChevronLeftOutline, TiChevronRightOutline} from 'https://cdn.skypack.dev/react-icons@4.12.0/ti';
 import { styled } from "styled-components";
@@ -131,7 +129,7 @@ const CardsBox = styled.div`
     height: 100%;
     padding: 2rem;
     /* background-color: hsl(0deg, 0%, calc(100% - var(--abs-offset) * 10%)); */
-    background-color: hsl(42deg, calc(0% + var(--abs-offset) * 100%) , calc(10% + var(--abs-offset) * 50%));
+    background-color: hsl(167deg, calc(0% + var(--abs-offset) * 100%) , calc(36% + var(--abs-offset) * 50%));
     /* background-color: black; */
     border-radius: 1rem;
     text-align: justify;
@@ -139,13 +137,13 @@ const CardsBox = styled.div`
 
     &:hover {
     transition: 1s;
-    background-color: hsl(42deg, 50%, 10%);
+    background-color: hsl(167deg, 20%, 36%);
     transform: translateY(-2rem);
     cursor: pointer;
     }
     
     h2 {
-      color: rgba(255, 180, 0, 0.92);
+      color: #00b890;
       text-align: center;
       font-size: 2rem;
       font-weight: bold;
@@ -179,7 +177,7 @@ const CardsBox = styled.div`
   }
 
   .nav {
-    color: rgba(255, 180, 0, 0.92);
+    color: #d6fff6;
     font-size: 5rem;
     position: absolute;
     display: flex;

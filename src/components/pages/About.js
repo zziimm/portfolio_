@@ -64,9 +64,7 @@ function About(props) {
       </section>
     </StyledSkills>
   </PageWrap>
-    // <AboutWrapper>
-    //   <p></p>
-    // </AboutWrapper>
+
   );
 }
 
