@@ -12,7 +12,7 @@ function AboutTxtWrap() {
 			</div>
 			<div className="right">
 				<div className="tit-wrap">
-					<Heading level="2">HI! HOW ARE YOU?</Heading>
+					<Heading level="2">Welcome !</Heading>
 					<Heading>
 						I'M{" "}
 						<span className="message">
